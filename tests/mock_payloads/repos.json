@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "name": "Medium Public",
+    "full_name": "test-org-1/Medium Public",
+    "private": false,
+    "html_url": "https://github-test.com/test-org-1/Medium Public",
+    "fork": false,
+    "owner": {
+      "login": "test-org-1",
+      "id": 8,
+      "type": "Organization"
+    },
+    "description": null,
+    "visibility": "public",
+    "topics": ["duck", "goat", "medium"],
+    "size": 2,
+    "disabled": false
+  },
+  {
+    "id": 16,
+    "name": "Medium Private",
+    "full_name": "test-org-2/Medium Private",
+    "private": true,
+    "html_url": "https://github-test.com/test-org-2/Medium Private",
+    "fork": false,
+    "owner": {
+      "login": "test-org-2",
+      "id": 9,
+      "type": "Organization"
+    },
+    "description": null,
+    "visibility": "private",
+    "topics": ["medium"],
+    "size": 1,
+    "disabled": false
+  },
+  {
+    "id": 3,
+    "name": "Test Low",
+    "full_name": "lowtestuser/Test Low",
+    "private": false,
+    "html_url": "https://github-test.com/lowtestuser/Test Low",
+    "fork": false,
+    "owner": {
+      "login": "lowtestuser",
+      "id": 7,
+      "type": "User",
+      "site_admin": true
+    },
+    "description": null,
+    "visibility": "public",
+    "topics": ["low"],
+    "size": 12,
+    "disabled": false
+  },
+  {
+    "id": 4,
+    "name": "Test High",
+    "full_name": "lowtestuser/Test High",
+    "private": false,
+    "html_url": "https://github-test.com/lowtestuser/Test High",
+    "fork": false,
+    "owner": {
+      "login": "lowtestuser",
+      "id": 7,
+      "type": "User",
+      "site_admin": true
+    },
+    "description": null,
+    "visibility": "public",
+    "topics": ["high"],
+    "size": 10,
+    "disabled": true
+  },
+  {
+    "id": 5,
+    "name": "Test Empty Topics",
+    "full_name": "lowtestuser/Test Empty Topics",
+    "private": false,
+    "html_url": "https://github-test.com/lowtestuser/Test Empty Topics",
+    "fork": false,
+    "owner": {
+      "login": "lowtestuser",
+      "id": 7,
+      "type": "User",
+      "site_admin": true
+    },
+    "description": null,
+    "visibility": "public",
+    "topics": [],
+    "size": 1,
+    "disabled": false
+  },
+  {
+    "id": 6,
+    "name": "Test not in local",
+    "full_name": "lowtestuser/Test not in local",
+    "private": false,
+    "html_url": "doesn't matter",
+    "fork": false,
+    "owner": {
+      "login": "lowtestuser",
+      "id": 7,
+      "type": "User",
+      "site_admin": true
+    },
+    "description": null,
+    "visibility": "public",
+    "topics": [],
+    "size": 1,
+    "disabled": true
+  },
+  {
+    "id": 7,
+    "name": "Test Empty Repo",
+    "full_name": "lowtestuser/Test Empty Repo",
+    "private": false,
+    "html_url": "doesn't matter",
+    "fork": false,
+    "owner": {
+      "login": "lowtestuser",
+      "id": 7,
+      "type": "User",
+      "site_admin": true
+    },
+    "description": null,
+    "visibility": "public",
+    "topics": [],
+    "size": 0,
+    "disabled": true
+  }
+]

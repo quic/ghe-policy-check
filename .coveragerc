@@ -1,0 +1,15 @@
+[run]
+branch = True
+parallel = True
+source =
+    src/
+omit =
+    tests/*
+
+[paths]
+source =
+    src/ghe_policy_check
+    .tox/py*/lib/python*/site-packages/ghe_policy_check
+
+[report]
+show_missing = True

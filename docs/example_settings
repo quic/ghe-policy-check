@@ -1,0 +1,22 @@
+# Example Classifications
+# Classifications is a list of tuples where each tuple in the list represents
+one classifiction. The tuple should be constructed as
+(classification_labal, classification_value) or
+(attribute_name, (classification_value, classification_label)).
+This list is converted into a dictionary and passed as arguments to type which
+creates the class that represent the django enum type as described here
+https://docs.djangoproject.com/en/3.2/ref/models/fields/#enumeration-types
+
+
+DJANGO_SETTINGS
+CLASSIFICATIONS
+GITHUB_OWNER_TOKEN
+GITHUB_OWNER_USER
+GITHUB_WEBHOOK_KEY
+GITHUB_ADMIN_TOKENS
+REMINDER_MINUTES
+POLLING_PERIOD_MINUTES
+GITHUB_API_URL
+NOT_CLASSIFIED_TOPIC
+NON_COMPLIANT_TOPIC # Override is_non_compliant property of Repo to label offending repos with NON_COMPLIANT topic
+MAX_SYNC_RETRY
