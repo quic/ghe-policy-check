@@ -1,4 +1,4 @@
-Copyright (c) 2021, Qualcomm Innovation Center, Inc. All rights reserved.  
+Copyright (c) 2022, Qualcomm Innovation Center, Inc. All rights reserved.  
 SPDX-License-Identifier: BSD-3-Clause 
 
 # ghe-policy-check
@@ -11,5 +11,5 @@ Automation to enforce policy adherence of GitHub repositories
 * tox
 
 ## License
-License Text Normalizer is licensed under the BSD 3-clause “New” or “Revised”. License See [LICENSE](LICENSE) for the full license text.
+ghe-policy-check is licensed under the BSD 3-clause “New” or “Revised”. License See [LICENSE](LICENSE) for the full license text.
 
