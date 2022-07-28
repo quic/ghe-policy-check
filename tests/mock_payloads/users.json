@@ -1,0 +1,20 @@
+[
+  {
+    "login": "dummy user",
+    "id": 1,
+    "type": "User",
+    "suspended_at": null
+  },
+  {
+    "login": "testowner",
+    "id": 10,
+    "type": "User",
+    "suspended_at": null
+  },
+  {
+    "login": "Snowtocat",
+    "id": 11,
+    "type": "User",
+    "suspended_at": "2021-01-30 21:06:30.881104+00:00"
+  }
+ ]

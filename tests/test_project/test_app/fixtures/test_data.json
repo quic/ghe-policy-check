@@ -1,0 +1,192 @@
+[
+  {
+    "model": "ghe_policy_check.basicuser",
+    "pk": 1,
+    "fields": {
+      "username": "dummy user",
+      "github_id": 1,
+      "email": "email@test.com",
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00"
+    }
+  },
+    {
+    "model": "ghe_policy_check.basicuser",
+    "pk": 10,
+    "fields": {
+      "username": "testowner",
+      "github_id": 10,
+      "email": "email2@test.com",
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00"
+    }
+  },
+    {
+    "model": "ghe_policy_check.basicteam",
+    "pk": 1,
+    "fields": {
+      "team_name": "team 1",
+      "github_id": 1,
+      "team_slug": "team-1",
+      "org": 1,
+      "members": [1,10],
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00"
+    }
+  },
+    {
+    "model": "ghe_policy_check.basicteam",
+    "pk": 2,
+    "fields": {
+      "team_name": "team 2",
+      "github_id": 2,
+      "team_slug": "team-1",
+      "org": 1,
+      "members": [1,10],
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00"
+    }
+  },
+    {
+    "model": "ghe_policy_check.basicorg",
+    "pk": 1,
+    "fields": {
+      "github_id": 1,
+      "org_name": "test-org-1",
+      "owner": 1,
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00"
+    }
+  },
+  {
+    "model": "ghe_policy_check.basicorg",
+    "pk": 2,
+    "fields": {
+      "github_id": 2,
+      "org_name": "test-org-2",
+      "owner": 1,
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00"
+    }
+  },
+  {
+    "model": "ghe_policy_check.basicrepo",
+    "pk": 1,
+    "fields": {
+      "github_id": 1,
+      "repo_name": "test-org-1/Test Medium Public",
+      "description": "Test Repo 1 Description",
+      "classification": "medium",
+      "visibility": "public",
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00",
+      "html_url": "https://github-test.com/test-org-1/Test Medium Public",
+      "owner": 1,
+      "size": 2,
+      "org": 1,
+      "teams": [1]
+    }
+  },
+  {
+    "model": "ghe_policy_check.basicrepo",
+    "pk": 2,
+    "fields": {
+      "github_id": 16,
+      "repo_name": "test-org-2/Test Medium Private",
+      "description": "Test Repo 2 Description",
+      "classification": "medium",
+      "visibility": "private",
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00",
+      "html_url": "https://github-test.com/test-org-2/Test Medium Private",
+      "owner": 1,
+      "size": 1,
+      "org": 2,
+      "teams": [1]
+    }
+  },
+  {
+    "model": "ghe_policy_check.basicrepo",
+    "pk": 3,
+    "fields": {
+      "github_id": 2,
+      "repo_name": "dummy user/Test low 1",
+      "description": "Test Repo 3 Description",
+      "classification": "low",
+      "visibility": "public",
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00",
+      "html_url": "https://github-test.com/dummy user/Test low 1",
+      "owner": 1,
+      "size": 10000,
+      "teams": [1, 2]
+    }
+  },
+  {
+    "model": "ghe_policy_check.basicrepo",
+    "pk": 4,
+    "fields": {
+      "github_id": 3,
+      "repo_name": "dummy user/Test low 2",
+      "description": "Test Repo 4 Description",
+      "classification": "low",
+      "visibility": "private",
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00",
+      "html_url": "https://github-test.com/dummy user/Test low 2",
+      "owner": 1,
+      "size": 12,
+      "teams": [2]
+    }
+  },
+  {
+    "model": "ghe_policy_check.basicrepo",
+    "pk": 5,
+    "fields": {
+      "github_id": 4,
+      "repo_name": "dummy user/Test High",
+      "description": "Test Repo 5 Description",
+      "classification": "high",
+      "visibility": "public",
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00",
+      "html_url": "https://github-test.com/dummy user/Test High",
+      "owner": 1,
+      "size": 10,
+      "teams": [1]
+    }
+  },
+  {
+    "model": "ghe_policy_check.basicrepo",
+    "pk": 6,
+    "fields": {
+      "github_id": 5,
+      "repo_name": "dummy user/Test Empty Topics",
+      "description": "Test Empty Topics",
+      "classification": null,
+      "visibility": "public",
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00",
+      "html_url": "https://github-test.com/dummy user/Test Empty Topics",
+      "owner": 1,
+      "size": 1,
+      "teams": [2]
+    }
+  },
+    {
+    "model": "ghe_policy_check.basicrepo",
+    "pk": 7,
+    "fields": {
+      "github_id": 7,
+      "repo_name": "testowner/Test Empty Repo",
+      "description": "Test Empty Repo",
+      "classification": null,
+      "visibility": "public",
+      "created": "2021-01-27 21:06:30.881104+00:00",
+      "modified": "2021-01-27 21:06:30.881104+00:00",
+      "html_url": "https://github-test.com/testowner/Test Empty Repo",
+      "owner": 10,
+      "size": 0
+    }
+  }
+]

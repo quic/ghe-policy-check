@@ -1,0 +1,14 @@
+[MESSAGES CONTROL]
+# Suppress invalid line continuation errors that result from 'black' formatter
+disable=expression-not-assigned,protected-access,no-member,C0330,missing-docstring,import-error,too-many-arguments,R0801,redefined-outer-name,ungrouped-imports,wrong-import-order,trailing-comma-tuple,logging-fstring-interpolation, unsubscriptable-object
+ignore=migrations
+
+# Bug in pylint https://github.com/PyCQA/pylint/issues/3882 for unsubscriptable-object
+
+[BASIC]
+# Good variable names which should always be accepted, separated by a comma
+good-names=_,app,e,f,logger,router,schema_view,urlpatterns,pk,db
+
+[FORMAT]
+# Let black handle formatting
+max-line-length=160
